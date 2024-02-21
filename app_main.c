@@ -133,7 +133,7 @@ void app_main(void)
     uint8_t send_start_buf[4] = {10,11,12,13};
     uint8_t recv_start_buf[4] = {0};
 
-    uint8_t sendbuf[512] = {0};
+    uint8_t sendbuf[1024] = {0};
     uint8_t recvbuf[512] = {0};
 
     spi_transaction_t transaction1;
